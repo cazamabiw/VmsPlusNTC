@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "335214217524",
+    "firebase_url": "https://vms-plus-c82e1.firebaseio.com",
+    "project_id": "vms-plus-c82e1",
+    "storage_bucket": "vms-plus-c82e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335214217524:android:098ec2eae74e7b7d",
+        "android_client_info": {
+          "package_name": "com.nauticomm.vms.vmsplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335214217524-f6so5qr9focvjg5v308l2c8tvbrk0vsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfhqAlmijbaBbgewDSy5C23jCSDBck56Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

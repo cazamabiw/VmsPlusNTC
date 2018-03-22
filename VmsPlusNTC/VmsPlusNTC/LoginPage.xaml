@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VmsPlusNTC.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+
+            <Image Source="LOGONuticomm" />
+            <Label />
+            <Entry 
+               x:Name="userName"
+               Placeholder="Username"/>
+
+            <Entry 
+               x:Name="password"
+               Placeholder="Password" IsPassword="True"/>
+
+            <!--<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Jainam" TextColor="Red" WidthRequest="20"/>
+        </Grid>-->
+            <Label
+            x:Name="resultLogin" VerticalOptions="Center" HorizontalTextAlignment="Center"  TextColor="Red"/>
+            <Button
+            x:Name="loginBtn"
+            Text="Sign in" BackgroundColor="#E5E4E2" TextColor="Black"/>
+            <ActivityIndicator x:Name="loadIndicator" Color="Blue" IsRunning="False" />
+
+            <StackLayout VerticalOptions="End">
+                
+                <Label VerticalOptions="Center" HorizontalTextAlignment	="Center"  Text="เบอร์ติดต่อ 092-2545465, 092-4065151 (24ชั่วโมง)"/>
+                <Label VerticalOptions="Center" HorizontalTextAlignment	="Center"  Text="LineID: @nauticomm"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
